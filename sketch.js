@@ -12,7 +12,10 @@ function draw() {
 }
 
 function flyt_firkant () {
-  if (firkant.x < width - firkant.w) {
+  if (firkant.x <= (width * 3/4) - firkant.w) {
       firkant.x += 3;
+  }
+  if (firkant.y < (height * 3/4) - firkant.h && firkant.x > (width * 3/4) - firkant.w) {
+    firkant.y += 3;
   }
 }
