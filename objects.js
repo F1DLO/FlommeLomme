@@ -7,7 +7,7 @@ class Firkant {
     }
 
     draw() {
-        fill(255, 0, 0)
+        fill(0, 0, 255);
         rect(this.x, this.y, this.w, this.h);
     }
 }
@@ -20,7 +20,7 @@ class Cirkel {
     }
 
     draw() {
-        fill(255, 0, 0);
+        fill(255, 255, 0);
         ellipse(this.x, this.y, this.d);
     }
 }
